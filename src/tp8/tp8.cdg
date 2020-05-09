@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="tp8">
+  <ClassDiagramComponents>
+    <Class name="Matriz" package="" visibility="public" xPosition="345.0" yPosition="202.0">
+      <Fields>
+        <Field name="arreglo" type="int[]" visibility="private"/>
+        <Field name="armada" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="armar" returnType="void" visibility="public"/>
+        <Method name="recorrer" returnType="void" visibility="public"/>
+        <Method name="recorrerPares" returnType="void" visibility="public"/>
+        <Method name="recorrerParesPosiciones" returnType="void" visibility="public"/>
+        <Method name="getArmada" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="TestMatriz" package="" visibility="public" xPosition="368.0" yPosition="35.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation name="matriz" source="TestMatriz" target="Matriz" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
